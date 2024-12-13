@@ -18,8 +18,8 @@ pipeline {
 		}
 		stage('Tests'){
 			steps {
-				//sh 'npm test'
-                echo 'Skipping tests as none are defined.'
+				sh 'npm test'
+                //echo 'Skipping tests as none are defined.'
 			}
 		}
 	}
