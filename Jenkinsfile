@@ -7,7 +7,7 @@ pipeline {
 	stages {
 		stage('Checkout Github'){
 			steps {
-				git branch: 'main', credentialsId: 'jen-doc-git', url: 'https://github.com/DanielConduri/api-node-jenkins.git'
+				git branch: 'main', credentialsId: 'jenkins-git-token-2', url: 'https://github.com/DanielConduri/api-node-jenkins.git'
 			}
 		}
 		
